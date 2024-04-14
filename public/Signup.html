@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>signup</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="Signup.css" />
+  </head>
+  <body>
+    <section>
+      <div class="image">
+         <img src="images/logo.jpg" />
+        <h1 style="color:aqua">SBMY</h1>
+        <h1 style="color:aqua">TOURS & TRAVELS</h1>
+
+        </div>
+      <div class="form-box">
+        <div class="form-value">
+      
+        <h1>Sign up</h1>
+        <h5 style="color:purple;">It is free and only take one minute</h5>
+        <div class="start">
+            <form action="/sign_up" method="POST">
+            <input type="text" class="box" id="First name" name="Firstname" placeholder="FirstName" required />
+            <br>
+            <input type="text" class="box" id="Last name" name="Lastname" placeholder="LastName" required />
+            <br>
+            <input type="text" class="box" id="email" name="email" placeholder="Email" required />
+            <br>
+            <input type="text" class="box" id="phno" name="phno" placeholder="Mobile" required />
+            <br>
+            <input type="password" class="box" id="password" name="password" placeholder="Password" required />
+            <br>
+            <input type="password" class="box" id="confirmpassword" name="confirmpassword" placeholder="ConfirmPassword" required />
+            <br>
+            <input type="submit" value="Submit" id="submit" />
+            </form>
+        
+
+        <p class="para-2">
+          Already have an account? <a href="login.html">Login here</a>
+        </p> 
+      </div>
+    </form>
+    </div>
+  </div>
+    </section>
+  </body>
+</html>

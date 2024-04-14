@@ -1,0 +1,29 @@
+body {
+    background: url("images/packages.jpg") no-repeat;
+  
+    background-position: center;
+     margin-top: 680px;
+    background-size: cover;
+    
+  }
+  .ali h1 {
+    text-align: center;
+    margin-top: -300px;
+    color: white;
+    font-size: 120px;
+  }
+  h1:hover{
+  color: aqua;
+  transition: 3s;
+  text-decoration: red underline;
+  }
+  button{
+    text-align: center;
+    align-items: center;
+    margin-left: 600px;
+    margin-top: -500px;
+  }
+  button:hover{
+    color:blueviolet;
+    background-color: brown;
+  }

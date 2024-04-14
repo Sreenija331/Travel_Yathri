@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  body {
+    background-color: skyblue;
+    font-family: "Roboto", sans-serif;
+  }
+  .sign-up {
+    width: 400px;
+    height: 750px;
+    margin: auto;
+    background-color: lightblue;
+    border-radius: 3px;
+  }
+  .image img {
+    width: 150px;
+    margin-left: -450px;
+    display: flex;
+    margin-top: -320px;
+  }
+  
+  .image h1 {
+    margin-left: -550px;
+    color: rgb(246, 250, 250);
+    font-size: 30px;
+  }
+  .image h1:hover {
+    color: aqua;
+    text-decoration: underline;
+    transition: 3s;
+  }
+  
+  h1 {
+    text-align: center;
+    padding-top: 15px;
+    color: aqua;
+  }
+  h1:hover {
+    color: white;
+  }
+  h5 {
+    text-align: center;
+    color: skyblue;
+  }
+  form {
+    width: 400px;
+    margin-left: 20px;
+  }
+  form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+    color: skyblue;
+  }
+  form start {
+    width: 380px;
+    padding: 8px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+    color: skyblue;
+  }
+  input[type="button"] {
+    width: 450px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: darkgreen;
+    color: white;
+    font-size: 18px;
+  }
+  p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+    margin-top: 3px;
+    color: white;
+  }
+  .para-2 {
+    text-align: center;
+    color: yellow;
+    font-size: 15px;
+    margin-top: -10px;
+    /* background-color: black; */
+    background-attachment: fixed;
+  }
+  .para-2 a {
+    color: white;
+  }
+  .para-2 a:hover {
+    color: yellow;
+  }
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url("images/signup1.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .form-box {
+    position: relative;
+    background: transparent;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: 2px solid skyblue;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+  }
+  .start label {
+    display: flex;
+    color: aqua;
+  }
+  .start input {
+    width: 370px;
+    padding: 6px;
+  }
+  @media (max-width: 600px) {
+    .form-box {
+      width: 100%;
+      height: 100vh;
+      border: none;
+      border-radius: 0px;
+    }
+  }
+  @media (max-width: 360px) {
+    .form-box {
+      width: 100%;
+      height: 100vh;
+      border: none;
+      border-radius: 0px;
+    }
+  }
